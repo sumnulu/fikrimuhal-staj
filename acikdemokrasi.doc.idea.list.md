@@ -1,6 +1,6 @@
 # Açıkdemokrasi API DOC
 
-## Idea
+## idea.list
 
 
 [idea.list](Açıkdemokrasi API - idea.list)
