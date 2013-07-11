@@ -25,13 +25,13 @@ http://localhost.acikdemokrasi.org:8080/ideaApi/vote?id=1&value=1
 ```
 {
   "status":"Error",
-  "message":"Invalid vote value"
+  "message":"User voted before"
 }
 ```
 ```
 {
   "status":"Error",
-  "message":"User voted before"
+  "message":"Invalid vote value"
 }
 ```
 ```
