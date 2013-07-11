@@ -1,3 +1,12 @@
+# Açıkdemokrasi API DOC
+
+## Idea
+
+
+[idea.list](Açıkdemokrasi API - idea.list)
+
+
+
 ### Example usage
 ```
 http://localhost.acikdemokrasi.org:8080/ideaApi/list
