@@ -30,6 +30,12 @@ http://localhost.acikdemokrasi.org:8080/ideaApi/vote?id=1&vote=1
 ```
 ```
 {
+  "status":"Error",
+  "message":"User voted before"
+}
+```
+```
+{
   "status":"OK",
   "data": {
     "author": {
