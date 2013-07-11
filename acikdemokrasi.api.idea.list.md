@@ -1,6 +1,10 @@
 # Açıkdemokrasi API Doc - idea.list
 
-[back to API docs home](Home)
+[Back to API docs home](Home)
+
+### Requirements
+- If author filter used, user should be logged in
+- If author filter used and user is not admin, only logged in user's records will show up. Otherwise, all records will show up.
 
 ### Example usage
 ```
