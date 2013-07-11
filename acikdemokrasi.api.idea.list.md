@@ -12,7 +12,7 @@ http://localhost.acikdemokrasi.org:8080/ideaApi/list
 http://localhost.acikdemokrasi.org:8080/ideaApi/list?since=2013-06-06
 http://localhost.acikdemokrasi.org:8080/ideaApi/list?author=2
 http://localhost.acikdemokrasi.org:8080/ideaApi/list?voted
-http://localhost.acikdemokrasi.org:8080/ideaApi/list??tags=tag1,tag2
+http://localhost.acikdemokrasi.org:8080/ideaApi/list?tags=tag1,tag2
 ```
 ```
 {
