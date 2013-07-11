@@ -1,11 +1,6 @@
-# Açıkdemokrasi API DOC
+# Açıkdemokrasi API DOC - 
 
-## idea.list
-
-
-[idea.list](Açıkdemokrasi API - idea.list)
-
-
+[Back to API docs home](Home)
 
 ### Example usage
 ```
