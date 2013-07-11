@@ -1,11 +1,11 @@
 # Açıkdemokrasi API DOC
 
-[idea.list](https://bitbucket.org/fikrimuhal/fmw/wiki/idea.list)
+[idea.list](Açıkdemokrasi API - idea.list)
 
-[idea.create](https://bitbucket.org/fikrimuhal/fmw/wiki/idea.create)
+[idea.create](Açıkdemokrasi API - idea.create)
 
-[idea.show](https://bitbucket.org/fikrimuhal/fmw/wiki/idea.show)
+[idea.show](Açıkdemokrasi API - idea.show)
 
-[idea.update](https://bitbucket.org/fikrimuhal/fmw/wiki/idea.update)
+[idea.update](Açıkdemokrasi API - idea.update)
 
-[idea.delete](https://bitbucket.org/fikrimuhal/fmw/wiki/idea.delete)
+[idea.delete](Açıkdemokrasi API - idea.delete)
