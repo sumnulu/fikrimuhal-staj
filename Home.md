@@ -2,12 +2,12 @@
 
 ## Idea
 
-[idea.list](Açıkdemokrasi API - idea.list)
+[idea.list](acikdemokrasi.doc.apiidea.list)
 
-[idea.create](Açıkdemokrasi API - idea.create)
+[idea.create](acikdemokrasi.doc.apiidea.create)
 
-[idea.show](Açıkdemokrasi API - idea.show)
+[idea.show](acikdemokrasi.doc.apiidea.show)
 
-[idea.update](Açıkdemokrasi API - idea.update)
+[idea.update](acikdemokrasi.doc.apiidea.update)
 
-[idea.delete](Açıkdemokrasi API - idea.delete)
+[idea.delete](acikdemokrasi.doc.apiidea.delete)
