@@ -8,7 +8,7 @@
 
 ### Example usage
 ```
-http://localhost.acikdemokrasi.org:8080/ideaApi/vote?id=1&vote=1
+http://localhost.acikdemokrasi.org:8080/ideaApi/vote?id=1&value=1
 ```
 ```
 {
