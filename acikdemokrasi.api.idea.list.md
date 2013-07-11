@@ -1,4 +1,4 @@
-# açıkdemokrasi API DOC - idea.list
+# Açıkdemokrasi API Doc - idea.list
 
 [back to API docs home](Home)
 
