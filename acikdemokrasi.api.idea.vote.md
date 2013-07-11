@@ -4,7 +4,7 @@
 
 ### Requirements
 - User should be logged in
-- For yes vote, vote.value is 1, for no it is -1, to reset vote, it is -2
+- For yes vote, vote.value is 1, for no it is -1, to reset vote, it is 0
 
 ### Example usage
 ```
