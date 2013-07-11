@@ -16,6 +16,8 @@ http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea
   "status":"Error",
   "message":"You are not logged in"
 }
+```
+```
 {
   "status":"OK",
   "data": {
