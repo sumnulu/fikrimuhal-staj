@@ -9,7 +9,7 @@
 
 ### Example usage
 ```
-[xxx](http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea)
+http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea
 ```
 ```
 {
