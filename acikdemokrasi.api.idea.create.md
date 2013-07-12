@@ -8,9 +8,9 @@
 - Hashtags in the text should be between '#' and ' '
 
 ### Example usage
-```
-http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea
-```
+
+[http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea](http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea)
+
 ```
 {
   "status":"Error",
