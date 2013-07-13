@@ -7,9 +7,9 @@
 - For yes vote, vote.value is 1, for no it is -1, to reset vote, it is 0
 
 ### Example usage
-```
-http://localhost.acikdemokrasi.org:8080/ideaApi/vote?id=1&value=1
-```
+
+[http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1)
+
 ```
 {
   "status":"Error",
