@@ -1,4 +1,4 @@
-# Açıkdemokrasi API DOC
+# Açıkdemokrasi API DOC  (Private wiki)
 
 ## idea
 - [idea.create](acikdemokrasi.api.idea.create)
