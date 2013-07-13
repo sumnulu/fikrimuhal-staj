@@ -9,7 +9,7 @@
 
 ### Example usage
 
-[http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea](http://localhost.acikdemokrasi.org:8080/ideaApi/create?text=exampleidea)
+[http://localhost.acikdemokrasi.org:8080/api/1/idea/create?text=exampleidea](http://localhost.acikdemokrasi.org:8080/api/1/idea/create?text=exampleidea)
 
 ```
 {
