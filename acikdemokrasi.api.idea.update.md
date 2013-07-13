@@ -9,9 +9,9 @@
 - Hashtags in the text should be between '#' and ' '
 
 ### Example usage
-```
-http://localhost.acikdemokrasi.org:8080/ideaApi/update?id=1&text=updatedText
-```
+
+[http://localhost.acikdemokrasi.org:8080/api/1/idea/1/update?text=updatedText](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/update?text=updatedText)
+
 ```
 {
   "status":"Error",
