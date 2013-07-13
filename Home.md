@@ -1,7 +1,7 @@
 # Açıkdemokrasi API DOC  (Private wiki)
 
 ## idea
-- [idea.create](acikdemokrasi.api.idea.create) | http://localhost.acikdemokrasi.org:8080/api/1/idea/create?text=exampleidea
+- [idea.create](acikdemokrasi.api.idea.create)
 - [idea.show](acikdemokrasi.api.idea.show)
 - [idea.update](acikdemokrasi.api.idea.update)
 - [idea.delete](acikdemokrasi.api.idea.delete)
