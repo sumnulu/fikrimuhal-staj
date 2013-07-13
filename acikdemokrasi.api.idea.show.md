@@ -4,7 +4,7 @@
 
 ### Example usage
 ```
-http://localhost.acikdemokrasi.org:8080/api/1/idea/show?id=1
+http://localhost.acikdemokrasi.org:8080/api/1/idea/show/1
 ```
 ```
 {
