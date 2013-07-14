@@ -8,7 +8,8 @@
 
 ### Example usage
 
-[http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1)
+- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1)
+- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/0](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/0)
 
 ```
 {
