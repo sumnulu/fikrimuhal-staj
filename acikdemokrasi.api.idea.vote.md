@@ -27,12 +27,6 @@
 ```
 {
   "status":"Error",
-  "message":"User voted before"
-}
-```
-```
-{
-  "status":"Error",
   "message":"Invalid vote value"
 }
 ```
