@@ -22,7 +22,7 @@
 {
   "status":"OK",
   "data": {
-    "id":15,
+    "id":1,
     "name":"updatedName",
     "style":null
   }
