@@ -20,7 +20,8 @@
 [show](acikdemokrasi.api.user.show) / 
 [update](acikdemokrasi.api.user.update) / 
 [delete](acikdemokrasi.api.user.delete) / 
-[list](acikdemokrasi.api.user.list)
+[list](acikdemokrasi.api.user.list) / 
+[checkEmailAddress](acikdemokrasi.api.user.checkEmailAddress)
 
 #Resources
 - [Books and Resources](Book%20and%20Resources)
