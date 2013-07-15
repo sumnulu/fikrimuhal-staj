@@ -9,8 +9,8 @@
 ```
 {
   "data": {
-    'available': true,
-    'email': user@example.com
+    "available": true,
+    "email": "user@example.com"
   }
 }
 ```
