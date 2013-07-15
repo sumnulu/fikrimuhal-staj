@@ -4,7 +4,7 @@
 
 ### Requirements
 - User should be logged in
-- Text should be minimum 1, maximum 500 long
+- Text should be minimum 1, maximum 25 long
 
 ### Example usage
 
@@ -14,7 +14,7 @@
 {
   "status":"Error",
   "message":"You are not logged in"
-  "data": []
+  "data": [ ]
 }
 ```
 ```
