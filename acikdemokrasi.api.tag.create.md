@@ -23,7 +23,9 @@
   "data": {
     "id":15,
     "name":"exampleTag",
-    "style":null
+    "style":null,
+    "created":"2013-07-11T00:24:54Z",
+    "updated":"2013-07-11T00:24:54Z"
   }
 }
 ```
