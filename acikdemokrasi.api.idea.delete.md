@@ -13,24 +13,28 @@
 ```
 {
   "status":"Error",
-  "message":"You are not logged in"
+  "message":"You are not logged in",
+  "data": [ ]
 }
 ```
 ```
 {
   "status":"Error",
-  "message":"You do not have permission for this operation"
+  "message":"You do not have permission for this operation",
+  "data": [ ]
 }
 ```
 
 ```
 {
   "status":"Error",
-  "message":"Object not found"
+  "message":"Object not found",
+  "data": [ ]
 }
 ```
 ```
 {
-  "status":"OK
+  "status":"OK,
+  "data": [ ]
 }
 ```
