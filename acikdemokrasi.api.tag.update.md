@@ -5,7 +5,7 @@
 ### Requirements
 - User should be logged in
 - User should be an administrator
-- Text should be minimum 1, maximum 500 long
+- Text should be minimum 1, maximum 25 long
 
 ### Example usage
 
