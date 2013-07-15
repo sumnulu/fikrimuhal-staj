@@ -14,7 +14,7 @@
 [show](acikdemokrasi.api.tag.show) / 
 [update](acikdemokrasi.api.tag.update) / 
 [delete](acikdemokrasi.api.tag.delete) / 
-[list](acikdemokrasi.api.tag.list) / 
+[list](acikdemokrasi.api.tag.list)
 
 
 ## user
