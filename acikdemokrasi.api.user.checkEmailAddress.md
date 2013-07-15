@@ -8,6 +8,7 @@
 
 ```
 {
+  "status": "OK",
   "data": {
     "available": true,
     "email": "user@example.com"
