@@ -1,12 +1,12 @@
 # Açıkdemokrasi API DOC  (Private wiki)
 
 ## idea
-- [idea.create](acikdemokrasi.api.idea.create)
-- [idea.show](acikdemokrasi.api.idea.show)
-- [idea.update](acikdemokrasi.api.idea.update)
-- [idea.delete](acikdemokrasi.api.idea.delete)
-- [idea.list](acikdemokrasi.api.idea.list)
-- [idea.vote](acikdemokrasi.api.idea.vote)
+[create](acikdemokrasi.api.idea.create) / 
+show](acikdemokrasi.api.idea.show) / 
+[update](acikdemokrasi.api.idea.update) / 
+[delete](acikdemokrasi.api.idea.delete) / 
+[list](acikdemokrasi.api.idea.list) / 
+[vote](acikdemokrasi.api.idea.vote)
 
 ## user
 - [user.create](acikdemokrasi.api.user.create)
