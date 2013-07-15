@@ -1,4 +1,4 @@
-# Açıkdemokrasi API Doc - idea.show
+# Açıkdemokrasi API Doc - user.show
 
 [Back to API docs home](Home)
 
