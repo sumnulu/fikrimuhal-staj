@@ -11,7 +11,6 @@
 - [http://localhost.acikdemokrasi.org:8080/api/1/idea/list](http://localhost.acikdemokrasi.org:8080/api/1/idea/list)
 - [http://localhost.acikdemokrasi.org:8080/api/1/idea/list?since=2013-06-06](http://localhost.acikdemokrasi.org:8080/api/1/idea/list?since=2013-06-06)
 - [http://localhost.acikdemokrasi.org:8080/api/1/idea/list?author=1](http://localhost.acikdemokrasi.org:8080/api/1/idea/list?author=1)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/list?voted](http://localhost.acikdemokrasi.org:8080/api/1/idea/list?voted)
 - [http://localhost.acikdemokrasi.org:8080/api/1/idea/list?tags=tag1,tag2](http://localhost.acikdemokrasi.org:8080/api/1/idea/list?tags=tag1,tag2)
 
 ```
