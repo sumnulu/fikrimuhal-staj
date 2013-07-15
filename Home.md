@@ -2,7 +2,7 @@
 
 ## idea
 [create](acikdemokrasi.api.idea.create) / 
-show](acikdemokrasi.api.idea.show) / 
+[show](acikdemokrasi.api.idea.show) / 
 [update](acikdemokrasi.api.idea.update) / 
 [delete](acikdemokrasi.api.idea.delete) / 
 [list](acikdemokrasi.api.idea.list) / 
