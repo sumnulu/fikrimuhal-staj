@@ -4,7 +4,7 @@
 
 ### Example usage
 
-[http://localhost.acikdemokrasi.org:8080/api/1/tag/1/show](http://localhost.acikdemokrasi.org:8080/api/1/tag/1/show)
+[http://localhost.acikdemokrasi.org:8080/api/1/tag/1](http://localhost.acikdemokrasi.org:8080/api/1/tag/1)
 
 ```
 {
