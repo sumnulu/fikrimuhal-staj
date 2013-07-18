@@ -2,9 +2,8 @@
 
 [Back to API docs home](Home)
 
-
-
 || *API-level* ||
+
 | HTTP 400 | Message 600 | Wrong api key |
 
 || *Security* ||
