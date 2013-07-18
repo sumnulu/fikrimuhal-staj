@@ -8,9 +8,12 @@
 
 ### Example usage
 
+#### GET
 - [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=1)
 - [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=-1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=-1)
 - [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=0](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=0)
+
+#### POST
 
 ```
 {
