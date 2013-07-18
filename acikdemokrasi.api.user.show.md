@@ -46,7 +46,8 @@
     "pictureUrl":"",
     "type":"Vatandaş",
     "totalVotes":24,
-    "totalTopics":4
+    "totalTopics":4,
+    "isAdmin":1
   }
 }
 ```
