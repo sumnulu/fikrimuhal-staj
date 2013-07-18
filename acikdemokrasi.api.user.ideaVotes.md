@@ -1,4 +1,4 @@
-# Açıkdemokrasi API Doc - user.list
+# Açıkdemokrasi API Doc - user.ideaVotes
 
 [Back to API docs home](Home)
 
