@@ -13,7 +13,7 @@ HTTP Status | Message Code | Message
 
 **Data actions**
 
-- HTTP400 | 630: Item deleted
+- HTTP 400 | Message 630: Item deleted
 - 631: Text is longer than 140 characters
 - 632: Invalid vote value
 - 633: Values are not valid
