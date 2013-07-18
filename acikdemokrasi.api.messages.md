@@ -32,4 +32,4 @@
 
 ### References ###
 
-[Full List of HTTP Status Codes**](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+- [Full List of HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
