@@ -8,9 +8,9 @@
 
 ### Example usage
 
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/-1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/-1)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/0](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/0)
+- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote {post value=1}](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote)
+- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote {post value=-1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/-1)
+- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote {post value=0](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/0)
 
 ```
 {
