@@ -4,21 +4,18 @@
 
 **General Errors**
 
-- 601 Wrong api key
+- 600: Wrong api key
 
 **Security and Permission**
-- 601 You are not logged in
-- You do not have permission
+- 610: You are not logged in
+- 611: You do not have permission
 
+**Data retrieval**
+- 620: Object not found
+- 621: No results found
 
-### Fetching
-No results found
-
-### Operations
-Item deleted
-
-### Posting
-Text is longer than 140 characters
-Invalid vote value
-Values are not valid
-
+**Data actions**
+- 630: Item deleted
+- 631: Text is longer than 140 characters
+- 632: Invalid vote value
+- 633: Values are not valid
