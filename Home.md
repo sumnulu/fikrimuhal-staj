@@ -22,6 +22,7 @@
 [delete](acikdemokrasi.api.user.delete) / 
 [list](acikdemokrasi.api.user.list) / 
 [checkEmailAddress](acikdemokrasi.api.user.checkEmailAddress)
+[ideaVotes](acikdemokrasi.api.user.ideaVotes)
 
 #Resources
 - [Books and Resources](Book%20and%20Resources)
