@@ -1,7 +1,6 @@
 h1. Açıkdemokrasi API Doc - messages
 
 p. "Back to API docs home":home
-p. 
 
 | *API-level* |||
 | HTTP 400 | Message 600 | Wrong api key |
@@ -20,10 +19,10 @@ p.
 | HTTP 400 | Message 632 | Invalid vote value |
 | HTTP 400 | Message 633 | Values are not valid |
 
-### References ###
+h2. References
 
-- [Full List of HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-200 OK
-400 Bad Request
-401 Unauthorized
-403 Forbidden
+"Full List of HTTP Status Codes":https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+- 200 OK
+- 400 Bad Request
+- 401 Unauthorized
+- 403 Forbidden
