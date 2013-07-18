@@ -1,6 +1,6 @@
 # Açıkdemokrasi API DOC  (Private wiki)
 
-[Error message codes](acikdemokrasi.api.message)
+[Error message codes](acikdemokrasi.api.messages)
 
 ## idea
 [create](acikdemokrasi.api.idea.create) / 
