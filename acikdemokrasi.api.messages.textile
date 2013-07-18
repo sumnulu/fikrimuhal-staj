@@ -22,7 +22,7 @@ p. "Back to API docs home":home
 h2. References
 
 "Full List of HTTP Status Codes":https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-- 200 OK
-- 400 Bad Request
-- 401 Unauthorized
-- 403 Forbidden
+* 200 OK
+* 400 Bad Request
+* 401 Unauthorized
+* 403 Forbidden
