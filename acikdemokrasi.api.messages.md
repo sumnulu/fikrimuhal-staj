@@ -10,7 +10,9 @@
 
 **General Errors**
 HTTP Status | Message Code | Message
+
 400         | 600          | Wrong api key
+
 401 | 610 | You are not logged in
 - 611: You do not have permission
 
