@@ -3,18 +3,23 @@
 [Back to API docs home](Home)
 
 HTTP Status | Message Code | Message
+
 **API-level**
+
 - HTTP 400 | Message 600: Wrong api key
 
 **Security**
+
 - HTTP 401 | Message 610: You are not logged in
 - HTTP 403 | Message 611: You do not have permission
 
 **Data actions**
+
 - HTTP 400 | Message 620: Object not found
 - HTTP 200 | Message 621: No results found
 
 **Data actions**
+
 - HTTP 200 | Message 630: Item deleted
 - HTTP 400 | Message 631: Text is longer than 140 characters
 - HTTP 400 | Message 632: Invalid vote value
