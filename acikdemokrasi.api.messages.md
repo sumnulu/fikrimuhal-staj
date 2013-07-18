@@ -2,31 +2,18 @@
 
 [Back to API docs home](Home)
 
-- HTTP Status Code | Message Code | Message
-200 OK
-400 Bad Request
-401 Unauthorized
-403 Forbidden
-
-**General Errors**
 HTTP Status | Message Code | Message
-
-400         | 600          | Wrong api key
+400 | 600 | Wrong api key
 
 401 | 610 | You are not logged in
-- 611: You do not have permission
 
-**Security and Permission**
-
-
-**Data retrieval**
-
-- 620: Object not found
-- 621: No results found
+403 | 611 | You do not have permission
+400 | 620 | Object not found
+200 | 621 | No results found
 
 **Data actions**
 
-- 630: Item deleted
+- HTTP400 | 630: Item deleted
 - 631: Text is longer than 140 characters
 - 632: Invalid vote value
 - 633: Values are not valid
@@ -35,3 +22,7 @@ HTTP Status | Message Code | Message
 ### References ###
 
 - [Full List of HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+200 OK
+400 Bad Request
+401 Unauthorized
+403 Forbidden
