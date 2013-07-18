@@ -14,10 +14,15 @@ p. "Back to API docs home":home
 | HTTP 200 | Message 621 | No results found |
 ||||
 | *Create/Update* |||
-| HTTP 200 | Message 630 | Item deleted |
+| HTTP 200 | Message 630 | (Not used) |
 | HTTP 400 | Message 631 | Text is longer than 140 characters |
 | HTTP 400 | Message 632 | Invalid vote value |
 | HTTP 400 | Message 633 | Values are not valid |
+||||
+| *Check/Verify* |||
+| HTTP 400 | Message 650 | Missing email address |
+| HTTP 400 | Message 651 | E-mail address exists |
+
 
 h2. References
 
