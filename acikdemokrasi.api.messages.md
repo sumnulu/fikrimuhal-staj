@@ -11,6 +11,7 @@ HTTP Status | Message Code | Message
 **Security**
 
 - HTTP 401 | Message 610: You are not logged in
+|
 - HTTP 403 | Message 611: You do not have permission
 
 **Show/List**
