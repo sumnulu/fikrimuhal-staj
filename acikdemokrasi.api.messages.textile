@@ -1,6 +1,6 @@
 h1. Açıkdemokrasi API Doc - messages
 
-p. "Back to API docs home":home
+p. "Back to API docs home":Home
 
 | *API-level* |||
 | HTTP 400 | Message 600 | Wrong api key |
