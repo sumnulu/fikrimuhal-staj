@@ -13,12 +13,12 @@ HTTP Status | Message Code | Message
 - HTTP 401 | Message 610: You are not logged in
 - HTTP 403 | Message 611: You do not have permission
 
-**Data actions**
+**Show/List**
 
-- HTTP 400 | Message 620: Object not found
-- HTTP 200 | Message 621: No results found
+- HTTP 400 | Message 620 | Object not found
+- HTTP 200 | Message 621 | No results found
 
-**Data actions**
+**Create/Update**
 
 - HTTP 200 | Message 630: Item deleted
 - HTTP 400 | Message 631: Text is longer than 140 characters
