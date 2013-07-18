@@ -2,12 +2,10 @@
 
 [Back to API docs home](Home)
 
-|| *API-level* ||
-
+| *API-level* |
 | HTTP 400 | Message 600 | Wrong api key |
 
 || *Security* ||
-
 | HTTP 401 | Message 610 | You are not logged in |
 | HTTP 403 | Message 611 | You do not have permission |
 
