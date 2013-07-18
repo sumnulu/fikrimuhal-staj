@@ -4,11 +4,9 @@
 
 
 
-| HTTP Status | Message Code | Message |
-||||
+| *HTTP Status* | *Message Code* | *Message* |
 || *API-level* ||
 | 400 | 600 | Wrong api key |
-||||
 || *Security* ||
 | HTTP 401 | Message 610 | You are not logged in |
 | HTTP 403 | Message 611 | You do not have permission |
