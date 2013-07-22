@@ -8,7 +8,7 @@ p. "Back to API docs home":Home
 | *Security* |||
 | HTTP 401 | Message 610 | You are not logged in |
 | HTTP 403 | Message 611 | You do not have permission |
-| HTTP 401 | Message 612 | Invalid username or password |
+| HTTP 401 | Message 612 | Invalid email or password |
 | HTTP 400 | Message 613 | You are already logged in |
 ||||
 | *Show/List* |||
