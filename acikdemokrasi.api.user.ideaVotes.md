@@ -8,7 +8,7 @@
 
 ### Example usage
 
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote/1)
+- [http://localhost.acikdemokrasi.org:8080/api/1/user/ideaVotes](http://localhost.acikdemokrasi.org:8080/api/1/user/ideaVotes)
 
 ```
 {
@@ -27,14 +27,7 @@
 {
   "status":"OK",
   "data":[
-    {
-      "idea":{
-        "id":1,
-        "text":"Ergenekon ve balyoz davaları"
-      },
-      "value":1
-    }
-    ..
-  ]
+         {idea:{id:4}, value:1}, {idea:{id:5}, value:1}, {idea:{id:26}, value:1}, {idea:{id:23}, value:1},
+          …]
 }
 ```
