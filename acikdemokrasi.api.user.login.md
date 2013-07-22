@@ -8,9 +8,9 @@
 
 ### Example usage
 
-- [http://localhost.acikdemokrasi.org:8080/api/1/user/login?email=test@example.com&password=myPassword]-(http://localhost.acikdemokrasi.org:8080/api/1/user/login?email=test@example.com&password=myPassword)
+- [http://localhost.acikdemokrasi.org:8080/api/1/user/login?email=test@example.com&password=myPassword](http://localhost.acikdemokrasi.org:8080/api/1/user/login?email=test@example.com&password=myPassword)
 - [http://localhost.acikdemokrasi.org:8080/api/1/user/login?email=test@example.com&password=myPassword&remember=true](http://localhost.acikdemokrasi.org:8080/api/1/user/login?email=test@example.com&password=myPassword&remember=true)
-- [http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe]-(http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe)
+- [http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe](http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe)
 
 ```
 {
