@@ -5,6 +5,7 @@
 ### Requirements
 - User should not be logged in
 - Username and password should be valid
+- authType should be "rememberMe" or "plain"
 
 ### Example usage
 
