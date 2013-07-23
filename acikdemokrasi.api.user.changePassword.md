@@ -9,7 +9,7 @@
 
 ### Example usage
 
-[localhost.acikdemokrasi.org:8080/api/1/user/1/changePassword?password=newPassword&password2=newPassword](localhost.acikdemokrasi.org:8080/api/1/user/1/changePassword?password=newPassword&password2=newPassword)
+[http://localhost.acikdemokrasi.org:8080/api/1/user/1/changePassword?password=newPassword&password2=newPassword](http://localhost.acikdemokrasi.org:8080/api/1/user/1/changePassword?password=newPassword&password2=newPassword)
 
 ```
 {
