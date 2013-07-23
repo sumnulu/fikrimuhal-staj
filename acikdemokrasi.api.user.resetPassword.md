@@ -4,7 +4,9 @@
 
 ### Example usage
 
-[http://localhost.acikdemokrasi.org:8080/api/1/user/resetPassword?email=test@example.com](http://localhost.acikdemokrasi.org:8080/api/1/user/resetPassword?email=test@example.com)
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/resetPassword' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"email":"test@example.com"}'
+
+|
 
 ```
 {
@@ -18,19 +20,5 @@
 {
   "status":"OK",
   "message":"Password reset information has been sent to your address"
-}
-```
-```
-{
-  "status":"Error",
-  "message":"Invalid Token",
-  "code":999
-  "data": []
-}
-```
-```
-{
-  "status":"OK",
-  "message":"Your password has been changed"
 }
 ```
