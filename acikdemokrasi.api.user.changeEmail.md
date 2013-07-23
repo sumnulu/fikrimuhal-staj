@@ -9,7 +9,9 @@
 
 ### Example usage
 
-[http://localhost.acikdemokrasi.org:8080/api/1/user/1/changeEmail?email=newemail@example.com&currentPassword=myPassword](http://localhost.acikdemokrasi.org:8080/api/1/user/1/changeEmail?email=newemail@example.com&currentPassword=myPassword)
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/1/changeEmail' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"newemail":"test@example.com","currentPassword":"myPassword"}'
+
+|
 
 ```
 {
