@@ -23,7 +23,8 @@
 [update](acikdemokrasi.api.user.update) / 
 [delete](acikdemokrasi.api.user.delete) / 
 [list](acikdemokrasi.api.user.list) / 
-[changePassword](acikdemokrasi.api.user.changePassword)
+[changePassword](acikdemokrasi.api.user.changePassword) / 
+[changeEmail](acikdemokrasi.api.user.changeEmail)
 
 [checkEmailAddress](acikdemokrasi.api.user.checkEmailAddress) / 
 [ideaVotes](acikdemokrasi.api.user.ideaVotes) / 
