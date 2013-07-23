@@ -4,7 +4,7 @@
 
 ### Example usage
 
-[localhost.acikdemokrasi.org:8080/api/1/user/resetPassword?email=test@example.com](localhost.acikdemokrasi.org:8080/api/1/user/resetPassword?email=test@example.com)
+[http://localhost.acikdemokrasi.org:8080/api/1/user/resetPassword?email=test@example.com](http://localhost.acikdemokrasi.org:8080/api/1/user/resetPassword?email=test@example.com)
 
 ```
 {
