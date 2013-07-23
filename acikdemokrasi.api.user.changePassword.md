@@ -1,4 +1,4 @@
-# Açıkdemokrasi API Doc - user.resetPassword
+# Açıkdemokrasi API Doc - user.changePassword
 
 [Back to API docs home](Home)
 
