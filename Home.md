@@ -27,7 +27,8 @@
 [ideaVotes](acikdemokrasi.api.user.ideaVotes) / 
 [login](acikdemokrasi.api.user.login) / 
 [logout](acikdemokrasi.api.user.logout) / 
-[register](acikdemokrasi.api.user.register) 
+[register](acikdemokrasi.api.user.register) / 
+[resetPassword](acikdemokrasi.api.user.resetPassword) / 
 
 #Resources
 - [Books and Resources](Book%20and%20Resources)
