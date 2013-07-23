@@ -16,6 +16,7 @@
 
 >    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/login' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, */*' --data-binary '{"authType":"rememberMe"}'
 
+```
 {
   status:"Error",
   message:"You are already logged in",
