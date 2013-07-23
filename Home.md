@@ -22,13 +22,14 @@
 [show](acikdemokrasi.api.user.show) / 
 [update](acikdemokrasi.api.user.update) / 
 [delete](acikdemokrasi.api.user.delete) / 
-[list](acikdemokrasi.api.user.list) / 
+[list](acikdemokrasi.api.user.list)
+
 [checkEmailAddress](acikdemokrasi.api.user.checkEmailAddress) / 
 [ideaVotes](acikdemokrasi.api.user.ideaVotes) / 
 [login](acikdemokrasi.api.user.login) / 
 [logout](acikdemokrasi.api.user.logout) / 
 [register](acikdemokrasi.api.user.register) / 
-[resetPassword](acikdemokrasi.api.user.resetPassword) / 
+[resetPassword](acikdemokrasi.api.user.resetPassword)
 
 #Resources
 - [Books and Resources](Book%20and%20Resources)
