@@ -22,7 +22,8 @@
 [show](acikdemokrasi.api.user.show) / 
 [update](acikdemokrasi.api.user.update) / 
 [delete](acikdemokrasi.api.user.delete) / 
-[list](acikdemokrasi.api.user.list)
+[list](acikdemokrasi.api.user.list) / 
+[changePassword](acikdemokrasi.api.user.changePassword)
 
 [checkEmailAddress](acikdemokrasi.api.user.checkEmailAddress) / 
 [ideaVotes](acikdemokrasi.api.user.ideaVotes) / 
