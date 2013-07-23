@@ -32,7 +32,8 @@
 [login](acikdemokrasi.api.user.login) / 
 [logout](acikdemokrasi.api.user.logout) / 
 [register](acikdemokrasi.api.user.register) / 
-[resetPassword](acikdemokrasi.api.user.resetPassword)
+[resetPassword](acikdemokrasi.api.user.resetPassword) / 
+[resetPasswordWithToken](acikdemokrasi.api.user.resetPasswordWithToken)
 
 #Resources
 - [Books and Resources](Book%20and%20Resources)
