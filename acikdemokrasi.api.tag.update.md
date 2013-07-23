@@ -9,7 +9,9 @@
 
 ### Example usage
 
-[http://localhost.acikdemokrasi.org:8080/api/1/tag/1/update?text=updatedName](http://localhost.acikdemokrasi.org:8080/api/1/tag/1/update?text=updatedName)
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/tag/1/update' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"name":"updatedName"}'
+
+|
 
 ```
 {
