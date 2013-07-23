@@ -8,8 +8,7 @@
 
 ### Example usage
 
-
-[http://localhost.acikdemokrasi.org:8080/api/1/user/1/update?firstName=first&middleName=middle&lastName=last](http://localhost.acikdemokrasi.org:8080/api/1/user/1/update?firstName=first&middleName=middle&lastName=last)
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/977/update' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, */*' --data-binary '{"firstName":"newFirst","middleName":"newMiddle","lastName":"newLast"}'
 
 ```
 {
