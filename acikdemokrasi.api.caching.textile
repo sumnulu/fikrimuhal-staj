@@ -5,11 +5,11 @@ p. "Back to API docs home":Home
 h2. Tag API
 
 | *URL* | *Authentication* | *Action* | *Request M.* | *Type* | *Cache Min/Max* | *Cache* |
-| /api/1/tag/$id | - | Show | GET | Public | 1m/1h | 360 |
-| /api/1/tag/$id | Required | Update | POST | Private | - | - |
-| /api/1/tag/$id | Required | Delete | DELETE | Private | - | - |
-| /api/1/tag | - | List | GET | Public | 1m/1h | 360 |
-| /api/1/tag | Required | Create | PUT | Private | - | - |
+| /api/1/tag/$id | - | show | GET | Public | 1m/1h | 360 |
+| /api/1/tag/$id | Required | update | POST | Private | - | - |
+| /api/1/tag/$id | Required | delete | DELETE | Private | - | - |
+| /api/1/tag | - | list | GET | Public | 1m/1h | 360 |
+| /api/1/tag | Required | create | PUT | Private | - | - |
 
 
 h2. Idea API
