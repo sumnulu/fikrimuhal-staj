@@ -4,7 +4,7 @@ p. "Back to API docs home":Home
 
 h2. Tag API
 
-| *URL* | Authentication | Method | Type | Cache Min/Max | Cache |
+| *URL* | *Authentication* | *Method* | *Type* | *Cache Min/Max* | *Cache* |
 | /api/1/tag/$id | - | GET | Public | 1m/1h | 360 |
 | /api/1/tag/$id/delete | Required | GET/POST | Private | - | - |
 | /api/1/tag/$id/update | Required | POST | Private | - | - |
@@ -13,7 +13,7 @@ h2. Tag API
 
 h2. Idea API
 
-| *URL* | Authentication | Method | Type | Cache Min/Max | Cache |
+| *URL* | *Authentication* | *Method* | *Type* | *Cache Min/Max* | *Cache* |
 | /api/1/idea/$id | - | GET | Public | ? | ? |
 | /api/1/idea/$id/delete | Required | GET/POST | Private | - | - |
 | /api/1/idea/$id/update | Required | POST | Private | - | - |
