@@ -4,7 +4,7 @@ p. "Back to API docs home":Home
 
 | *URL* | Authentication | Parameters | Cache |
 | /api/1/tag/$id | False | GET | On |
-| /api/1/tag/$id/delete | true | GET | ? |
-| /api/1/tag/$id/update | true | POST | ? |
-| /api/1/tag/create | true | POST | ? |
+| /api/1/tag/$id/delete | True | GET | ? |
+| /api/1/tag/$id/update | True | GET+POST | ? |
+| /api/1/tag/create | True | GET+POST | ? |
 | /api/1/tag/list | False | - | On |
