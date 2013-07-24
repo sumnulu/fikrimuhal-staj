@@ -5,11 +5,11 @@ p. "Back to API docs home":Home
 h2. Tag API
 
 | *URL* | *Request M.* | *Action* | *Authentication* | *Type* | *Cache Min/Max* | *Cache* |
-| /api/1/tag/$id | GET | [show](acikdemokrasi.api.tag.show) | - | Public | 1m/1h | 360 |
-| /api/1/tag/$id | POST | [update](acikdemokrasi.api.tag.update) | Required | Private | - | - |
-| /api/1/tag/$id | DELETE | [delete](acikdemokrasi.api.tag.delete) | Required | Private | - | - |
-| /api/1/tag | GET | [list](acikdemokrasi.api.tag.list) | - | Public | 1m/1h | 360 |
-| /api/1/tag | PUT | [create](acikdemokrasi.api.tag.create) | Required | Private | - | - |
+| /api/1/tag/$id | GET | "show":acikdemokrasi.api.tag.show | - | Public | 1m/1h | 360 |
+| /api/1/tag/$id | POST | "update":acikdemokrasi.api.tag.update | Required | Private | - | - |
+| /api/1/tag/$id | DELETE | "delete":acikdemokrasi.api.tag.delete | Required | Private | - | - |
+| /api/1/tag | GET | "list":acikdemokrasi.api.tag.list | - | Public | 1m/1h | 360 |
+| /api/1/tag | PUT | "create":acikdemokrasi.api.tag.create | Required | Private | - | - |
 
 
 h2. Idea API
