@@ -32,9 +32,9 @@ h2. User API
 | /api/1/user/$id/changeEmail | POST | "changeEmail":acikdemokrasi.api.user.changeEmail | Required | Private | - | - |
 | /api/1/user/$id/changePassword | POST | "changePassword":acikdemokrasi.api.user.changePassword | Required | Private | - | - |
 | /api/1/user/$id/ideaVotes | GET | "ideaVotes":acikdemokrasi.api.user.ideaVotes | Required | Private | - | - |
-| /api/1/user/changePasswordWithToken | POST | "changePasswordWithToken":acikdemokrasi.api.user.changePasswordWithToken | Required | Private | - | - |
+| /api/1/user/changePasswordWithToken | POST | "changePasswordWithToken":acikdemokrasi.api.user.changePasswordWithToken | Token | Private | - | - |
 | /api/1/user/checkEmailAddress | POST | "checkEmailAddress":acikdemokrasi.api.user.checkEmailAddress | - | Public | - | - |
-| /api/1/user/login | POST | "login":acikdemokrasi.api.user.login | Required | Private | - | - |
-| /api/1/user/logout | * | "logout":acikdemokrasi.api.user.logout | - | Private | - | - |
+| /api/1/user/login | POST | "login":acikdemokrasi.api.user.login | rememberMe/plain | Private | - | - |
+| /api/1/user/logout | * | "logout":acikdemokrasi.api.user.logout | Logout | Private | - | - |
 | /api/1/user/register | POST | "register":acikdemokrasi.api.user.register | Required | Private | - | - |
-| /api/1/user/verifyEmail | POST | "verifyEmail":acikdemokrasi.api.user.verifyEmail | Required | Private | - | - |
+| /api/1/user/verifyEmail | POST | "verifyEmail":acikdemokrasi.api.user.verifyEmail | Token | Private | - | - |
