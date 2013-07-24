@@ -10,10 +10,10 @@
 
 ### Example usage
 
-Request: POST
-Url: http://localhost.acikdemokrasi.org:8080/api/1/idea/1
-Content-Type: application/json
-Raw-body (data-binary): {"name":"updatedText"}
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/idea/1
+- Content-Type: application/json
+- Raw-body (data-binary): {"name":"updatedText"}
 
 ```
 {
