@@ -4,20 +4,21 @@ p. "Back to API docs home":Home
 
 h2. Tag API
 
-| *URL* | Req.Authentication | Method | Type | Cache Min/Max | Cache |
+| *URL* | Authentication | Method | Type | Cache Min/Max | Cache |
 | /api/1/tag/$id | - | GET | Public | 1m/1h | 360 |
-| /api/1/tag/$id/delete | Session | GET/POST | Private | - | - |
-| /api/1/tag/$id/update | Session | POST | Private | - | - |
-| /api/1/tag/create | Session | POST | Private | - | - |
+| /api/1/tag/$id/delete | Required | GET/POST | Private | - | - |
+| /api/1/tag/$id/update | Required | POST | Private | - | - |
+| /api/1/tag/create | Required | POST | Private | - | - |
 | /api/1/tag/list | - | GET | Public | 1m/1h | 360 |
 
 h2. Idea API
 
-| *URL* | Req.Authentication | Method | Type | Cache Min/Max | Cache |
+| *URL* | Authentication | Method | Type | Cache Min/Max | Cache |
 | /api/1/idea/$id | - |
-| /api/1/idea/$id/delete | Session |
-| /api/1/idea/$id/update | Session |
-| /api/1/idea/$id/vote | Session |
-| /api/1/idea/create | Session |
+| /api/1/idea/$id/delete | Required |
+| /api/1/idea/$id/update | Required |
+| /api/1/idea/$id/vote | Required |
+| /api/1/idea/create | Required |
 | /api/1/idea/list | - |
-| /api/1/user/resetPasswordWithToken | TOKEN | 
+| /api/1/user/resetPasswordWithToken | Token | 
+| /api/1/user/login | RememberMe/Plain | 
