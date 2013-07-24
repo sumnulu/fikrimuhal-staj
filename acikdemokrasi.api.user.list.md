@@ -10,8 +10,9 @@
 
 ### Example usage
 
-- [http://localhost.acikdemokrasi.org:8080/api/1/user/list](http://localhost.acikdemokrasi.org:8080/api/1/user/list)
-- [http://localhost.acikdemokrasi.org:8080/api/1/user/list?page=2](http://localhost.acikdemokrasi.org:8080/api/1/user/list?page=2)
+- Request: GET
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/list
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/list?page=2
 
 ```
 {
