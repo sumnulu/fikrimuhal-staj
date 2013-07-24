@@ -15,6 +15,15 @@ h2. Tag API
 h2. Idea API
 
 | *URL* | *Authentication* | *Method* | *Type* | *Cache Min/Max* | *Cache* |
+| /api/1/idea/$id | GET | "show":acikdemokrasi.api.idea.show | - | Public | 1m/1h | 360 |
+| /api/1/idea/$id | POST | "update":acikdemokrasi.api.idea.update | Required | Private | - | - |
+| /api/1/idea/$id | DELETE | "delete":acikdemokrasi.api.idea.delete | Required | Private | - | - |
+| /api/1/idea/$id/vote | POST | "vote":acikdemokrasi.api.idea.vote | Required | Private | - | - |
+| /api/1/idea | GET | "list":acikdemokrasi.api.idea.list | - | Public | 1m/1h | 360 |
+| /api/1/idea | PUT | "create":acikdemokrasi.api.idea.create | Required | Private | - | - |
+
+
+
 | /api/1/idea/$id | - | GET | Public | ? | ? |
 | /api/1/idea/$id/delete | Required | GET/POST | Private | - | - |
 | /api/1/idea/$id/update | Required | POST | Private | - | - |
