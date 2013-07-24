@@ -8,10 +8,21 @@
 
 ### Example usage
 
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/list](http://localhost.acikdemokrasi.org:8080/api/1/idea/list)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/list?since=2013-06-06](http://localhost.acikdemokrasi.org:8080/api/1/idea/list?since=2013-06-06)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/list?author=1](http://localhost.acikdemokrasi.org:8080/api/1/idea/list?author=1)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/list?tags=tag1,tag2](http://localhost.acikdemokrasi.org:8080/api/1/idea/list?tags=tag1,tag2)
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{}'
+
+|
+
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"since":"2013-06-06"}'
+
+|
+
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"author":1}'
+
+|
+
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"tags":["tag1","tag2"]}'
+
+|
 
 ```
 {
