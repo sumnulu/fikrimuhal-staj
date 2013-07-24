@@ -2,6 +2,8 @@ h1. Açıkdemokrasi API Doc - caching
 
 p. "Back to API docs home":Home
 
+h2. Tag
+
 | *URL* | Authentication | Method | Type | Cache Min/Max | Cache |
 | /api/1/tag/$id | False | GET | Public | 1m/1h | 360 |
 | /api/1/tag/$id/delete | True | GET/POST | Private | - | - |
