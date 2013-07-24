@@ -2,9 +2,9 @@ h1. Açıkdemokrasi API Doc - messages
 
 p. "Back to API docs home":Home
 
-| *URL* | Authentication | Type | Parameters |
-| /api/1/tag/$id | false | public | GET |
-| /api/1/tag/$id/delete | true | private | GET |
-| /api/1/tag/$id/update | true | private | POST |
-| /api/1/tag/create | true | private | POST |
-| /api/1/tag/list | true | public | - |
+| *URL* | Authentication | Type | Parameters | Cache |
+| /api/1/tag/$id | false | public | GET | On |
+| /api/1/tag/$id/delete | true | private | GET | ? |
+| /api/1/tag/$id/update | true | private | POST | ? |
+| /api/1/tag/create | true | private | POST | ? |
+| /api/1/tag/list | true | public | - | On |
