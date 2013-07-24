@@ -10,7 +10,8 @@
 ### Example usage
 
 - Request: POST
-- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/changeEmail
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/changeEmail 
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/changeEmail (current user)
 - Content-Type: application/json
 - Raw-body (data-binary): {"email":"test@example.com","currentPassword":"password"}
 
