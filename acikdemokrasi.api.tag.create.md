@@ -8,9 +8,8 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/tag/create' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"name":"testTag"}'
-
-|
+HTTP-GET:
+>    http://localhost.acikdemokrasi.org:8080/api/1/tag/1
 
 ```
 {
