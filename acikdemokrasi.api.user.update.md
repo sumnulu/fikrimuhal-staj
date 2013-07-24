@@ -8,7 +8,10 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/1/update' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, */*' --data-binary '{"firstName":"newFirst","middleName":"newMiddle","lastName":"newLast"}'
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/update
+- Content-Type: application/json
+- Raw-body (data-binary): {"firstName":"newFirst","middleName":"newMiddle","lastName":"newLast"}
 
 ```
 {
