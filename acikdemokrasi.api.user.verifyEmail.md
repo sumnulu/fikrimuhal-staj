@@ -8,9 +8,10 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/verifyEmail' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"token":"e742da93-0fee-4d06-9561-0e03f3bec47b"}'
-
-|
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/verifyEmail
+- Content-Type: application/json
+- Raw-body (data-binary): {"token":"e742da93-0fee-4d06-9561-0e03f3bec47b"}
 
 ```
 {
