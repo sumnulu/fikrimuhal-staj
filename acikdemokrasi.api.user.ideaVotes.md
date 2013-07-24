@@ -4,11 +4,11 @@
 
 ### Requirements
 - User should be logged in
-- If not administrator, user can only edit his own records
 
 ### Example usage
 
-- [http://localhost.acikdemokrasi.org:8080/api/1/user/ideaVotes](http://localhost.acikdemokrasi.org:8080/api/1/user/ideaVotes)
+- Request: GET
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/ideaVotes
 
 ```
 {
