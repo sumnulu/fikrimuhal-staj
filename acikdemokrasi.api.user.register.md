@@ -9,7 +9,7 @@
 
 ### Example usage
 
-- Request: POST
+- Request: PUT
 - Url: http://localhost.acikdemokrasi.org:8080/api/1/user/register
 - Content-Type: application/json
 - Raw-body (data-binary): {"email":"test@example.com","password":"myPassword","firstName":"first","middleName":"middle","lastName":"last"}
