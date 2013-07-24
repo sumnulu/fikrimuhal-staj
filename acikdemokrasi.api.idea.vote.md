@@ -8,15 +8,9 @@
 
 ### Example usage
 
-#### GET
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=1)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=-1](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=-1)
-- [http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=0](http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote?value=0)
+>    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"value":1}'
 
-#### POST
-```
-curl -i -H "Accept: application/json" -X POST -d "value=1" http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote
-```
+|
 
 #### Results
 ```
