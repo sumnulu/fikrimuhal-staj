@@ -9,7 +9,9 @@
 ### Example usage
 
 - Request: POST
-- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/update
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/update 
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/update (current user)
+
 - Content-Type: application/json
 - Raw-body (data-binary): {"firstName":"newFirst","middleName":"newMiddle","lastName":"newLast"}
 
