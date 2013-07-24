@@ -13,7 +13,7 @@
 - Request: POST
 - Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=plain
 - Content-Type: application/json
-- Raw-body (data-binary): {"email":"test@example.com","currentPassword":"password"}
+- Raw-body (data-binary): {"email":"test@example.com","password":"password"}
 
 ---
 
