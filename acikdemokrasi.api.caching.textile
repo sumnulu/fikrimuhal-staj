@@ -4,7 +4,7 @@ p. "Back to API docs home":Home
 
 | *URL* | Authentication | Method | Type | Cache Min/Max | Cache |
 | /api/1/tag/$id | False | GET | Public | 1m/1h | 360 |
-| /api/1/tag/$id/delete | True | GET/POST | Private | Off | 0 |
-| /api/1/tag/$id/update | True | POST | Private | Off | 0 |
-| /api/1/tag/create | True | POST | Private | Off | 0 |
+| /api/1/tag/$id/delete | True | GET/POST | Private | - | - |
+| /api/1/tag/$id/update | True | POST | Private | - | - |
+| /api/1/tag/create | True | POST | Private | - | - |
 | /api/1/tag/list | False | GET | Public | 1m/1h | 360 |
