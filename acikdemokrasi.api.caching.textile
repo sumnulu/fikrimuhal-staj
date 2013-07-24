@@ -36,5 +36,5 @@ h2. User API
 | /api/1/user/checkEmailAddress | POST | "checkEmailAddress":acikdemokrasi.api.user.checkEmailAddress | - | Public | - | - |
 | /api/1/user/login | POST | "login":acikdemokrasi.api.user.login | rememberMe/plain | Private | - | - |
 | /api/1/user/logout | * | "logout":acikdemokrasi.api.user.logout | Logout | Private | - | - |
-| /api/1/user/register | POST | "register":acikdemokrasi.api.user.register | Required | Private | - | - |
+| /api/1/user/register | POST | "register":acikdemokrasi.api.user.register | - | Public | - | - |
 | /api/1/user/verifyEmail | POST | "verifyEmail":acikdemokrasi.api.user.verifyEmail | Token | Private | - | - |
