@@ -13,9 +13,6 @@
 - Content-Type: application/json
 - Raw-body (data-binary): {"name":"updatedName"}
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/tag/create' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"name":"testTag"}'
-
-|
 ```
 {
   "status":"Error",
