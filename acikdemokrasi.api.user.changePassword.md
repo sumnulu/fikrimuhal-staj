@@ -9,9 +9,10 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/1/changePassword' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"password":"newPassword","password2":"newPassword"}'
-
-|
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1/changePassword
+- Content-Type: application/json
+- Raw-body (data-binary): {"password":"newPassword"}
 
 ```
 {
