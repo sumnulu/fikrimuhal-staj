@@ -9,9 +9,10 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/create' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"text":"exampleIdea"}'
-
-|
+- Request: PUT
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/idea
+- Content-Type: application/json
+- Raw-body (data-binary): {"text":"exampleidea"}
 
 ```
 {
