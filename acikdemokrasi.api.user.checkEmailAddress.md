@@ -4,9 +4,10 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/checkEmailAddress' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"email":"test@example.com"}'
-
-|
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/checkEmailAddress
+- Content-Type: application/json
+- Raw-body (data-binary): {"email":"test@example.com"}
 
 ```
 {
