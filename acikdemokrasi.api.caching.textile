@@ -20,3 +20,15 @@ h2. Idea API
 | /api/1/idea/$id | POST | "update":acikdemokrasi.api.idea.update | Required | Private | - | - |
 | /api/1/idea/$id | DELETE | "delete":acikdemokrasi.api.idea.delete | Required | Private | - | - |
 | /api/1/idea/$id/vote | POST | "vote":acikdemokrasi.api.idea.vote | Required | Private | - | - |
+
+h2. User API
+
+| *URL* | *Request M.* | *Action* | *Authentication* | *Type* | *Cache Min/Max* | *Cache* |
+| /api/1/user | GET | "list":acikdemokrasi.api.user.list | - | Public | 1m/1h | 360 |
+| /api/1/user | PUT | "create":acikdemokrasi.api.user.create | Required | Private | - | - |
+| /api/1/user/$id | GET | "show":acikdemokrasi.api.user.show | - | Public | 1m/1h | 360 |
+| /api/1/user/$id | POST | "update":acikdemokrasi.api.user.update | Required | Private | - | - |
+| /api/1/user/$id | DELETE | "delete":acikdemokrasi.api.user.delete | Required | Private | - | - |
+| /api/1/user/$id/changeEmail | POST | "vote":acikdemokrasi.api.user.changeEmail | Required | Private | - | - |
+| /api/1/user/$id/changePassword | POST | "vote":acikdemokrasi.api.user.changePassword | Required | Private | - | - |
+| /api/1/user/$id/ideaVotes | POST | "vote":acikdemokrasi.api.user.ideaVotes | Required | Private | - | - |
