@@ -5,18 +5,18 @@ p. "Back to API docs home":Home
 h2. Tag API
 
 | *URL* | *Request M.* | *Action* | *Authentication* | *Type* | *Cache Min/Max* | *Cache* |
-| /api/1/tag | GET | "list":acikdemokrasi.api.tag.list | - | Public | 1m/1h | 360 |
+| /api/1/tag | GET | "list":acikdemokrasi.api.tag.list | - | Public | 1m/1h | 3600 |
 | /api/1/tag | PUT | "create":acikdemokrasi.api.tag.create | Required | Private | - | - |
-| /api/1/tag/$id | GET | "show":acikdemokrasi.api.tag.show | - | Public | 1m/1h | 360 |
+| /api/1/tag/$id | GET | "show":acikdemokrasi.api.tag.show | - | Public | 1m/1h | 3600 |
 | /api/1/tag/$id | POST | "update":acikdemokrasi.api.tag.update | Required | Private | - | - |
 | /api/1/tag/$id | DELETE | "delete":acikdemokrasi.api.tag.delete | Required | Private | - | - |
 
 h2. Idea API
 
 | *URL* | *Request M.* | *Action* | *Authentication* | *Type* | *Cache Min/Max* | *Cache* |
-| /api/1/idea | GET | "list":acikdemokrasi.api.idea.list | - | Public | 1m/1h | 360 |
+| /api/1/idea | GET | "list":acikdemokrasi.api.idea.list | - | Public | 5s/5m | 60 |
 | /api/1/idea | PUT | "create":acikdemokrasi.api.idea.create | Required | Private | - | - |
-| /api/1/idea/$id | GET | "show":acikdemokrasi.api.idea.show | - | Public | 1m/1h | 360 |
+| /api/1/idea/$id | GET | "show":acikdemokrasi.api.idea.show | - | Public | 5s/5m | 10 |
 | /api/1/idea/$id | POST | "update":acikdemokrasi.api.idea.update | Required | Private | - | - |
 | /api/1/idea/$id | DELETE | "delete":acikdemokrasi.api.idea.delete | Required | Private | - | - |
 | /api/1/idea/$id/vote | POST | "vote":acikdemokrasi.api.idea.vote | Required | Private | - | - |
@@ -26,7 +26,7 @@ h2. User API
 | *URL* | *Request M.* | *Action* | *Authentication* | *Type* | *Cache Min/Max* | *Cache* |
 | /api/1/user | GET | "show":acikdemokrasi.api.user.show | Required | Private | 1m/1h | 300 |
 | /api/1/user | PUT | "create":acikdemokrasi.api.user.create | Required | Private | - | - |
-| /api/1/user/$id | GET | "show":acikdemokrasi.api.user.show | - | Public | 1m/1h | 300 |
+| /api/1/user/$id | GET | "show":acikdemokrasi.api.user.show | - | Private | - | - |
 | /api/1/user/$id | POST | "update":acikdemokrasi.api.user.update | Required | Private | - | - |
 | /api/1/user/$id | DELETE | "delete":acikdemokrasi.api.user.delete | Required | Private | - | - |
 | /api/1/user/$id/changeEmail | POST | "changeEmail":acikdemokrasi.api.user.changeEmail | Required | Private | - | - |
