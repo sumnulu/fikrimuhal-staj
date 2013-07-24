@@ -14,22 +14,6 @@
 - Url: http://localhost.acikdemokrasi.org:8080/api/1/idea?author=1
 - Url: http://localhost.acikdemokrasi.org:8080/api/1/idea?tags=tag1,tag2
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{}'
-
-|
-
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"since":"2013-06-06"}'
-
-|
-
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"author":1}'
-
-|
-
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"tags":["tag1","tag2"]}'
-
-|
-
 ```
 {
   "status":"Error",
