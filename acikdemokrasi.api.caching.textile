@@ -2,20 +2,20 @@ h1. Açıkdemokrasi API Doc - messages
 
 p. "Back to API docs home":Home
 
-| URL | Login Required | 
-| /api/1/idea/$id | false | 
-| /api/1/idea/$id/delete | true | 
-| /api/1/idea/$id/update | true | 
-| /api/1/idea/$id/vote | true | 
-| /api/1/idea/create | false | 
-| /api/1/idea/list | depends | 
-
-| /api/1/tag/$id | true | 
-| /api/1/tag/$id/delete | true | 
-| /api/1/tag/$id/update | true | 
-| /api/1/tag/create | true | 
+| URL | Login Required |
+| /api/1/idea/$id | false |
+| /api/1/idea/$id/delete | true |
+| /api/1/idea/$id/update | true |
+| /api/1/idea/$id/vote | true |
+| /api/1/idea/create | false |
+| /api/1/idea/list | depends |
+|||
+| /api/1/tag/$id | true |
+| /api/1/tag/$id/delete | true |
+| /api/1/tag/$id/update | true |
+| /api/1/tag/create | true |
+|||
 | /api/1/tag/list | true | 
-
 | /api/1/user/$id | true | 
 | /api/1/user/$id/changeEmail | true | 
 | /api/1/user/$id/changePassword | true | 
