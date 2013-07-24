@@ -4,8 +4,8 @@
 
 ### Example usage
 
-Request: GET
-Url: http://localhost.acikdemokrasi.org:8080/api/1/tag
+- Request: GET
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/tag
 
 ```
 {
