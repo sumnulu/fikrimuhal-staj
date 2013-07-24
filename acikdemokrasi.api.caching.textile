@@ -26,10 +26,10 @@ h2. User API
 | *URL* | *Request M.* | *Action* | *Authentication* | *Type* | *Cache Min/Max* | *Cache* |
 | /api/1/user | GET | "show":acikdemokrasi.api.user.show | Required | Private | 1m/1h | 300 |
 | /api/1/user | PUT | "create":acikdemokrasi.api.user.create | Required | Private | - | - |
-| /api/1/user/$id | GET | "show":acikdemokrasi.api.user.show | - | Private | - | - |
-| /api/1/user/$id | POST | "update":acikdemokrasi.api.user.update | Required | Private | - | - |
-| /api/1/user/$id | DELETE | "delete":acikdemokrasi.api.user.delete | Required | Private | - | - |
-| /api/1/user/$id/changeEmail | POST | "changeEmail":acikdemokrasi.api.user.changeEmail | Required | Private | - | - |
+| /api/1/user/$id? | GET | "show":acikdemokrasi.api.user.show | - | Private | - | - |
+| /api/1/user/$id? | POST | "update":acikdemokrasi.api.user.update | Required | Private | - | - |
+| /api/1/user/$id? | DELETE | "delete":acikdemokrasi.api.user.delete | Required | Private | - | - |
+| /api/1/user/$id?/changeEmail | POST | "changeEmail":acikdemokrasi.api.user.changeEmail | Required | Private | - | - |
 | /api/1/user/$id?/changePassword | POST | "changePassword":acikdemokrasi.api.user.changePassword | Required | Private | - | - |
 | /api/1/user/$id?/ideaVotes | GET | "ideaVotes":acikdemokrasi.api.user.ideaVotes | Required | Private | 0/5s | 5 |
 | /api/1/user/changePasswordWithToken | POST | "changePasswordWithToken":acikdemokrasi.api.user.changePasswordWithToken | Token | Private | - | - |
