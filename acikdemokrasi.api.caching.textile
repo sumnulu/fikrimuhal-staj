@@ -13,7 +13,7 @@ h2. Tag API
 
 h2. Idea API
 
-| *URL* | *Authentication* | *Method* | *Type* | *Cache Min/Max* | *Cache* |
+| *URL* | *Request M.* | *Action* | *Authentication* | *Type* | *Cache Min/Max* | *Cache* |
 | /api/1/idea | GET | "list":acikdemokrasi.api.idea.list | - | Public | 1m/1h | 360 |
 | /api/1/idea | PUT | "create":acikdemokrasi.api.idea.create | Required | Private | - | - |
 | /api/1/idea/$id | GET | "show":acikdemokrasi.api.idea.show | - | Public | 1m/1h | 360 |
