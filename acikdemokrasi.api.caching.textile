@@ -6,5 +6,5 @@ p. "Back to API docs home":Home
 | /api/1/tag/$id | False | GET | Public | ?/? |
 | /api/1/tag/$id/delete | True | GET/POST | Private | Off |
 | /api/1/tag/$id/update | True | POST | Private | Off |
-| /api/1/tag/create | True | POST | ? | Off |
+| /api/1/tag/create | True | POST | Private | Off |
 | /api/1/tag/list | False | GET | Public | On |
