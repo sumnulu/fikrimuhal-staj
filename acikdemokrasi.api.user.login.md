@@ -10,11 +10,13 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/login/plain' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, */*' --data-binary '{"email":"test@example.com", "password":"myPassword","remember":true}'
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=plain
+- Content-Type: application/json
+- Raw-body (data-binary): {"email":"test@example.com","currentPassword":"password"}
 
-|
-
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/user/login/rememberMe' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, */*' --data-binary '{}'
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe
 
 ```
 {
