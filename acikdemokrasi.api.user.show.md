@@ -8,7 +8,8 @@
 
 ### Example usage
 
-[http://localhost.acikdemokrasi.org:8080/api/1/user/1](http://localhost.acikdemokrasi.org:8080/api/1/user/1)
+Request: GET
+Url: http://localhost.acikdemokrasi.org:8080/api/1/user/1
 
 ```
 {
