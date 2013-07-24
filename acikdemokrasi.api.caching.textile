@@ -14,11 +14,9 @@ h2. Tag API
 h2. Idea API
 
 | *URL* | Authentication | Method | Type | Cache Min/Max | Cache |
-| /api/1/idea/$id | - |
-| /api/1/idea/$id/delete | Required |
-| /api/1/idea/$id/update | Required |
-| /api/1/idea/$id/vote | Required |
-| /api/1/idea/create | Required |
-| /api/1/idea/list | - |
-| /api/1/user/resetPasswordWithToken | Token | 
-| /api/1/user/login | RememberMe/Plain | 
+| /api/1/idea/$id | - | GET | Public | ? | ? |
+| /api/1/idea/$id/delete | Required | GET/POST | Private | - | - |
+| /api/1/idea/$id/update | Required | POST | Private | - | - |
+| /api/1/idea/$id/vote | Required | POST | Private | - | - |
+| /api/1/idea/create | Required | POST | Private | - | - |
+| /api/1/idea/list | - | Public | ? | ? |
