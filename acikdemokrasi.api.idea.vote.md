@@ -8,9 +8,10 @@
 
 ### Example usage
 
->    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{"value":1}'
-
-|
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/idea/1/vote
+- Content-Type: application/json
+- Raw-body (data-binary): {"value":1}
 
 #### Results
 ```
