@@ -3,8 +3,8 @@ h1. Açıkdemokrasi API Doc - messages
 p. "Back to API docs home":Home
 
 | *URL* | Authentication | Method | Type | Cache Min/Max |
-| /api/1/tag/$id | False | GET | Public | ?/? |
+| /api/1/tag/$id | False | GET | Public | 1m/1h |
 | /api/1/tag/$id/delete | True | GET/POST | Private | Off |
 | /api/1/tag/$id/update | True | POST | Private | Off |
 | /api/1/tag/create | True | POST | Private | Off |
-| /api/1/tag/list | False | GET | Public | On |
+| /api/1/tag/list | False | GET | Public | 1m/1h |
