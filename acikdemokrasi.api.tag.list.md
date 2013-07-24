@@ -4,7 +4,8 @@
 
 ### Example usage
 
-- [http://localhost.acikdemokrasi.org:8080/api/1/tag/list](http://localhost.acikdemokrasi.org:8080/api/1/tag/list)
+Request: GET
+Url: http://localhost.acikdemokrasi.org:8080/api/1/tag
 
 ```
 {
