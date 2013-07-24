@@ -9,7 +9,10 @@
 ### Example usage
 
 - Request: GET
-- Url: http://localhost.acikdemokrasi.org:8080/api/1/tag
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/idea
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/idea?since=2013-01-30
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/idea?author=1
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/idea?tags=tag1,tag2
 
 >    curl 'http://localhost.acikdemokrasi.org:8080/api/1/idea/list' -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, text/plain, /' --data-binary '{}'
 
