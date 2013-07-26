@@ -6,6 +6,8 @@
 - Email and password fields should not be blank
 - Email address should not be used before
 - After the register, user will receive an email verification mail
+- Password should be at least 6 characters
+
 
 ### Example usage
 
