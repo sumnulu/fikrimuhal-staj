@@ -2,6 +2,9 @@
 
 [Back to API docs home](Home)
 
+### Requirements
+- Password should be at least 6 characters
+
 ### Example usage
 
 - Request: POST
