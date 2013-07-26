@@ -5,7 +5,7 @@
 ### Requirements
 - User should be logged in
 - User should be loggedin user or an administrator
-- Passwords should be the same
+- Password should be at least 6 characters
 
 ### Example usage
 
