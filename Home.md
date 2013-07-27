@@ -33,6 +33,7 @@
 [login](acikdemokrasi.api.user.login) / 
 [logout](acikdemokrasi.api.user.logout) / 
 [register](acikdemokrasi.api.user.register) / 
+[showProfile](acikdemokrasi.api.user.showProfile) / 
 [resetPassword](acikdemokrasi.api.user.resetPassword) / 
 [resetPasswordWithToken](acikdemokrasi.api.user.resetPasswordWithToken)
 
