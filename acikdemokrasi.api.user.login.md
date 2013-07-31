@@ -23,7 +23,7 @@
 ---
 
 - Request: POST
-- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe (needs facebook cookie)
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=facebook (needs facebook cookie)
 
 ```
 {
