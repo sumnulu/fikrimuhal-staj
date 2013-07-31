@@ -5,7 +5,7 @@
 ### Requirements
 - User should not be logged in
 - Username and password should be valid
-- authType should be "rememberMe" or "plain"
+- authType should be "rememberMe" or "plain" or "facebook"
 - Email address should be verified
 
 ### Example usage
@@ -18,7 +18,12 @@
 ---
 
 - Request: POST
-- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe (needs cookie)
+
+---
+
+- Request: POST
+- Url: http://localhost.acikdemokrasi.org:8080/api/1/user/login?authType=rememberMe (needs facebook cookie)
 
 ```
 {
