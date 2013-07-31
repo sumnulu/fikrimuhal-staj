@@ -3,10 +3,12 @@
 [Back to API docs home](Home)
 
 ### Requirements
-- User should not be logged in
 - Username and password should be valid
 - authType should be "rememberMe" or "plain" or "facebook"
 - Email address should be verified
+### NOT
+- If user is already authenticated i.e. server knows the session and user has been authenticated previously, User data will be returned.
+
 
 ### Example usage
 
